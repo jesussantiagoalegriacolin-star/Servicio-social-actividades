@@ -1,5 +1,4 @@
-# Servicio-social-actividades
-<!DOCTYPE html>
+# Registro de actividades club de tareas
 <html lang="es">
 <head>
   <meta charset="utf-8">
@@ -46,7 +45,7 @@
 </head>
 <body>
 
-  <h1>¡Bienvenidos al registro de actividades de servicios sociales!</h1>
+  <h1>¡Bienvenidos al registro de club de tareas!</h1>
 
   <div class="mb-3">
     <label for="email" class="form-label">Añade una cuenta</label>
@@ -56,85 +55,173 @@
   <div class="mb-3">
     <label for="info" class="form-label">Nombre completo y lugar de servicio donde entregas tus actividades</label>
     <textarea class="form-control" id="info" rows="3"></textarea>
-  </div>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tabla de Septiembre y Octubre 2025</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background: #f9f9f9;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      max-width: 1200px;
+      margin: auto;
+      background: white;
+    }
+    th, td {
+      border: 1px solid #333;
+      text-align: center;
+      padding: 10px;
+      font-size: 14px;
+    }
+    th {
+      background: #666;
+      color: white;
+    }
+    tr:nth-child(even) {
+      background: #f2f2f2;
+    }
+    td:first-child {
+      font-weight: bold;
+      background: #ddd;
+    }
+    input[type="checkbox"] {
+      transform: scale(1.2);
+    }
+    input[type="file"] {
+      font-size: 12px;
+    }
+    textarea {
+      width: 95%;
+      height: 120px;
+      resize: vertical;
+    }
+  </style>
+</head>
+<body>
+  <h2 style="text-align:center;">Plan de Septiembre - Octubre 2025</h2>
+  <table>
+    <tr>
+      <th>Semana</th>
+      <th>Actividad</th>
+      <th>Fecha</th>
+      <th>Numero de asistentes</th>
+      <th>Nota informativa</th>
+      <th>Evidencia fotográfica</th>
+    </tr>
 
-  <table class="table table-bordered">
-    <thead class="table-primary">
-      <tr>
-        <th>#</th>
-        <th>Tema</th>
-        <th>Septiembre 2025</th>
-        <th>Octubre 2025</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr class="blue-row">
-        <th scope="row">1</th>
-        <td>Domina el tema y practica en voz alta</td>
-        <td>Miércoles 3 y Jueves 4</td>
-        <td>Hasta la semana 5</td>
-      </tr>
-      <tr class="pink-row">
-        <th scope="row">2</th>
-        <td>Visualiza el éxito y respiración profunda</td>
-        <td>Miércoles 10 y Jueves 11</td>
-        <td>Hasta la semana 5</td>
-      </tr>
-      <tr class="red-row">
-        <th scope="row">3</th>
-        <td>Adopta una postura de poder y canaliza tu energía</td>
-        <td>Miércoles 17 y Jueves 18</td>
-        <td>Hasta semana 5</td>
-      </tr>
-      <tr class="blue-row">
-        <th scope="row">4</th>
-        <td>Haz pausas y varía tu ritmo</td>
-        <td>Miércoles 24 y Jueves 25</td>
-        <td>Hasta semana 5</td>
-      </tr>
-      <tr class="pink-row">
-        <th scope="row">5</th>
-        <td>Utiliza notas clave y establece contacto visual</td>
-        <td>Empieza con octubre</td>
-        <td>Miércoles 1 y Jueves 2</td>
-      </tr>
-      <tr class="red-row">
-        <th scope="row">6</th>
-        <td>Sonríe y sé honesto contigo mismo</td>
-        <td>Empieza octubre</td>
-        <td>Miércoles 8 y Jueves 9</td>
-      </tr>
-      <tr class="blue-row">
-        <th scope="row">7</th>
-        <td>Capacitación e inicia siguiente etapa</td>
-        <td>Continúa octubre</td>
-        <td>Miércoles 15 y Jueves 16</td>
-      </tr>
-    </tbody>
+    <!-- Semana 1 -->
+    <tr>
+      <td rowspan="2">Semana 1</td>
+      <td>Domina tu tema</td>
+      <td>Miercoles 3 Septiembre 2025</td>
+      <td><input type="checkbox"></td>
+      <td rowspan="2"><textarea placeholder="Escribe aquí la nota informativa..."></textarea></td>
+      <td rowspan="2"><input type="file" accept="image/*"></td>
+    </tr>
+    <tr>
+      <td>Practica en voz alta</td>
+      <td>Jueves 4 Septiembre 2025</td>
+      <td><input type="checkbox"></td>
+    </tr>
+
+    <!-- Semana 2 -->
+    <tr>
+      <td rowspan="2">Semana 2</td>
+      <td>Visualiza el éxito</td>
+      <td>Miercoles 10 Septiembre 2025</td>
+      <td><input type="checkbox"></td>
+      <td rowspan="2"><textarea placeholder="Escribe aquí la nota informativa..."></textarea></td>
+      <td rowspan="2"><input type="file" accept="image/*"></td>
+    </tr>
+    <tr>
+      <td>Respiración profunda</td>
+      <td>Jueves 11 Septiembre 2025</td>
+      <td><input type="checkbox"></td>
+    </tr>
+
+    <!-- Semana 3 -->
+    <tr>
+      <td rowspan="2">Semana 3</td>
+      <td>Adopta una postura de poder</td>
+      <td>Miercoles 17 Septiembre 2025</td>
+      <td><input type="checkbox"></td>
+      <td rowspan="2"><textarea placeholder="Escribe aquí la nota informativa..."></textarea></td>
+      <td rowspan="2"><input type="file" accept="image/*"></td>
+    </tr>
+    <tr>
+      <td>Canaliza tu energía</td>
+      <td>Jueves 18 Septiembre 2025</td>
+      <td><input type="checkbox"></td>
+    </tr>
+
+    <!-- Semana 4 -->
+    <tr>
+      <td rowspan="2">Semana 4</td>
+      <td>Haz pausas intencionadas</td>
+      <td>Miercoles 24 Septiembre 2025</td>
+      <td><input type="checkbox"></td>
+      <td rowspan="2"><textarea placeholder="Escribe aquí la nota informativa..."></textarea></td>
+      <td rowspan="2"><input type="file" accept="image/*"></td>
+    </tr>
+    <tr>
+      <td>Varía el tono y el ritmo</td>
+      <td>Jueves 25 Septiembre 2025</td>
+      <td><input type="checkbox"></td>
+    </tr>
+
+    <!-- Semana 5 -->
+    <tr>
+      <td rowspan="2">Semana 5</td>
+      <td>Utiliza notas clave</td>
+      <td>Miercoles 1 Octubre 2025</td>
+      <td><input type="checkbox"></td>
+      <td rowspan="2"><textarea placeholder="Escribe aquí la nota informativa..."></textarea></td>
+      <td rowspan="2"><input type="file" accept="image/*"></td>
+    </tr>
+    <tr>
+      <td>Establece contacto visual</td>
+      <td>Jueves 2 Octubre 2025</td>
+      <td><input type="checkbox"></td>
+    </tr>
+
+    <!-- Semana 6 -->
+    <tr>
+      <td rowspan="2">Semana 6</td>
+      <td>Sonríe</td>
+      <td>Miercoles 8 Octubre 2025</td>
+      <td><input type="checkbox"></td>
+      <td rowspan="2"><textarea placeholder="Escribe aquí la nota informativa..."></textarea></td>
+      <td rowspan="2"><input type="file" accept="image/*"></td>
+    </tr>
+    <tr>
+      <td>Sé honesto contigo mismo</td>
+      <td>Jueves 9 Octubre 2025</td>
+      <td><input type="checkbox"></td>
+    </tr>
+
+    <!-- Semana 7 -->
+    <tr>
+      <td rowspan="2">Semana 7</td>
+      <td>Capacitación</td>
+      <td>Miercoles 15 Octubre 2025</td>
+      <td><input type="checkbox"></td>
+      <td rowspan="2"><textarea placeholder="Escribe aquí la nota informativa..."></textarea></td>
+      <td rowspan="2"><input type="file" accept="image/*"></td>
+    </tr>
+    <tr>
+      <td>Inicio de la siguiente etapa</td>
+      <td>Jueves 16 Octubre 2025</td>
+      <td><input type="checkbox"></td>
+    </tr>
+
   </table>
-
-  <h2>Sube aquí tus actividades</h2>
-  <input type="file" accept="image/png, image/jpeg" id="imagenInput">
-  <img id="imagenMostrada" class="imagen" src="" alt="Imagen seleccionada" style="display: none;">
-
-  <p class="mt-4"><strong>Nota:</strong> La hora límite para la entrega de sus actividades es hasta las <strong>6:00pm</strong>. En caso de que se entreguen después del tiempo límite, su actividad se tomará como entrega extemporánea.  
-  <br>Si desean expandir su entrega a más tiempo, solicítenlo con la Lic. Laura Díaz Bernal.</p>
-
-  <script>
-    const imagenInput = document.getElementById('imagenInput');
-    const imagenMostrada = document.getElementById('imagenMostrada');
-
-    imagenInput.addEventListener('change', function(event) {
-      const archivo = event.target.files[0];
-      if (archivo) {
-        const url = URL.createObjectURL(archivo);
-        imagenMostrada.src = url;
-        imagenMostrada.style.display = 'block';
-      } else {
-        imagenMostrada.style.display = 'none';
-      }
-    });
-  </script>
-
 </body>
 </html>
+  <p class="mt-4"><strong>Nota:</strong> La hora límite para la entrega de sus actividades es hasta las <strong>6:00pm</strong>. En caso de que se entreguen después del tiempo límite, su actividad se tomará como entrega extemporánea.  
+  <br>Si desean expandir su entrega a más tiempo, solicítenlo con la Lic. Laura Isela Díaz Bernal.</p>
